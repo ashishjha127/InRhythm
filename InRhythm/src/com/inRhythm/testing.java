@@ -1,4 +1,6 @@
 package com.inRhythm;
+
+
 //Junit Testing of the Code
 
 
@@ -26,10 +28,6 @@ public class testing {
 		Assert.assertEquals("Ashish", result.getWord());
 		Assert.assertEquals(6, result.getWordLength());
 		 
-		
-		
-		
-		
 	}
 
 }
