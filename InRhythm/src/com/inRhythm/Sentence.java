@@ -14,10 +14,16 @@ public class Sentence {
 			if(str.length()> longestWord.length())
 			{
 				longestWord = str;
-				senObject.setWord(longestWord);
+				senObject.setWord(longestWord.trim());
 				senObject.setWordLength(longestWord.length());
 			}
 		}
+		
+		System.out.println(s);
+		senObject.getWord();
+		senObject.getWordLength();
+		
+		
 		return senObject;
 	}
 }
